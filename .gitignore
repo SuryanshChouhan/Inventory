@@ -1,0 +1,29 @@
+# Environment
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+*.db
+
+# Node
+node_modules/
+dist/
+.cache/
+
+# Docker / logs
+*.log
+
+# Generated local screenshots
+frontend-*.png
+
+# OS
+.DS_Store
+Thumbs.db
